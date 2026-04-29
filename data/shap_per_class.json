@@ -1,0 +1,162 @@
+{
+  "DoS Hulk": [
+    {
+      "Feature": "Init_Win_bytes_forward",
+      "Mean SHAP": 1.7485,
+      "Abs SHAP": 1.7485,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "FIN Flag Count",
+      "Mean SHAP": 0.9924,
+      "Abs SHAP": 1.0034,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Bwd Packets/s",
+      "Mean SHAP": 0.9074,
+      "Abs SHAP": 0.9074,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Fwd IAT Std",
+      "Mean SHAP": 0.8885,
+      "Abs SHAP": 0.8885,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Total Length of Bwd Packets",
+      "Mean SHAP": 0.8568,
+      "Abs SHAP": 0.8568,
+      "Direction": "\u2191 increase"
+    }
+  ],
+  "PortScan": [
+    {
+      "Feature": "Packet Length Mean",
+      "Mean SHAP": 2.7775,
+      "Abs SHAP": 2.7775,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Bwd Packet Length Min",
+      "Mean SHAP": 2.0878,
+      "Abs SHAP": 2.0878,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Flow Bytes/s",
+      "Mean SHAP": 1.2642,
+      "Abs SHAP": 1.2642,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "PSH Flag Count",
+      "Mean SHAP": 1.2616,
+      "Abs SHAP": 1.2616,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Init_Win_bytes_forward",
+      "Mean SHAP": 1.1709,
+      "Abs SHAP": 1.211,
+      "Direction": "\u2191 increase"
+    }
+  ],
+  "Bot": [
+    {
+      "Feature": "Destination Port",
+      "Mean SHAP": 7.0308,
+      "Abs SHAP": 7.0308,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "min_seg_size_forward",
+      "Mean SHAP": 0.7749,
+      "Abs SHAP": 0.7749,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Flow IAT Min",
+      "Mean SHAP": 0.7067,
+      "Abs SHAP": 0.757,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Init_Win_bytes_backward",
+      "Mean SHAP": 0.5631,
+      "Abs SHAP": 0.5631,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Bwd Packet Length Max",
+      "Mean SHAP": -0.3207,
+      "Abs SHAP": 0.3207,
+      "Direction": "\u2193 decrease"
+    }
+  ],
+  "BENIGN": [
+    {
+      "Feature": "Init_Win_bytes_forward",
+      "Mean SHAP": 2.6338,
+      "Abs SHAP": 2.6338,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Bwd Packet Length Min",
+      "Mean SHAP": 1.3443,
+      "Abs SHAP": 1.399,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Destination Port",
+      "Mean SHAP": 1.1328,
+      "Abs SHAP": 1.2996,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Init_Win_bytes_backward",
+      "Mean SHAP": 1.077,
+      "Abs SHAP": 1.077,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Fwd IAT Std",
+      "Mean SHAP": -1.0032,
+      "Abs SHAP": 1.0032,
+      "Direction": "\u2193 decrease"
+    }
+  ],
+  "DDoS": [
+    {
+      "Feature": "min_seg_size_forward",
+      "Mean SHAP": 6.3511,
+      "Abs SHAP": 6.3511,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Init_Win_bytes_backward",
+      "Mean SHAP": 4.2083,
+      "Abs SHAP": 4.2083,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Fwd Packet Length Mean",
+      "Mean SHAP": 0.9812,
+      "Abs SHAP": 0.9812,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Total Length of Fwd Packets",
+      "Mean SHAP": 0.2902,
+      "Abs SHAP": 0.2902,
+      "Direction": "\u2191 increase"
+    },
+    {
+      "Feature": "Fwd Header Length",
+      "Mean SHAP": 0.2477,
+      "Abs SHAP": 0.2477,
+      "Direction": "\u2191 increase"
+    }
+  ]
+}
