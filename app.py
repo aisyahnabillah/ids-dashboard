@@ -249,7 +249,7 @@ TOP_SHAP_FEATURES = [
 ]
 CONTEXT_FEATURES = [
     "Active Max",
-    "Init_Win_bytes_backward",
+    "Init_Win_bytes_bckward",
     "Destination Port",
     "Fwd IAT Std",
     "Flow Duration",
